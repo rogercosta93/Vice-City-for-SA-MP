@@ -2,6 +2,7 @@
 This is a conversion of Vice City from GTA United 1.2 for SA-MP 0.3DL
 
 ## Download Models
+[http://sharemods.com/9w1anhv78vyz/vc4samp.rar.html](http://sharemods.com/9w1anhv78vyz/vc4samp.rar.html)
 
 ## Requeriments
 [Streamer](http://forum.sa-mp.com/showthread.php?t=102865) by Incognito
