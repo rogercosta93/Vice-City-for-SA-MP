@@ -13184,16 +13184,3 @@ stock QuatToEulerZXY(Float:quat_x, Float:quat_y, Float:quat_z, Float:quat_w, &Fl
     return 1;
 }
 
-/* Function created by Y_Less */
-stock GetXYInFrontOfPlayer(playerid, &Float:x, &Float:y, Float:distance)
-{
-    new Float:a;
-    GetPlayerPos(playerid, x, y, a);
-    GetPlayerFacingAngle(playerid, a);
-    if (GetPlayerVehicleID(playerid)) {
-        GetVehicleZAngle(GetPlayerVehicleID(playerid), a);
-    }
-    x += (distance * floatsin(-a, degrees));
-    y += (distance * floatcos(-a, degrees));
-}
-
